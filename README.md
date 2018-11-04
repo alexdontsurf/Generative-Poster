@@ -1,6 +1,6 @@
 # Generative-Poster
 
-Se guardan las posiciones de una cuadrícula de 2 x 3
+Se guardan las posiciones de una cuadrícula de 2 x 3.
 A cada posición de la cuadrícula corresponde un tipo de imagen según el tipo de cartel:
 
 1 = roof ; 2 = facade ; 3 = street
