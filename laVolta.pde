@@ -8,7 +8,7 @@ int altoPagina = 842;
 int[][] p = {{0, 0}, {anchoPagina/2, 0}, {0, altoPagina/3}, {anchoPagina/2, altoPagina/3}, {0, altoPagina/3*2}, {anchoPagina/2, altoPagina/3*2}};
 
 // 
-String[] textos = {"27è\nMercat de\nLa Volta", "Disseny de\nproducte i\nartesania\ndigital",  "Art Km.0\nEspecial\nNadal", "20 i 23 desembre\n10-20 h.\n \nPlaça Assumpció\nSt Narcís Girona"};
+String[] textos = {"27è\nMercat de\nLa Volta", "Disseny de\nproducte i\nartesania\ndigital", "20 i 23 desembre\n10-20 h.\n \nPlaça Assumpció\nSt Narcís Girona"};
 
 // 1 - roof ; 2 - facade ; 3 - street
 int[] tipo1 = {1, 1, 2, 2, 2, 2};
@@ -16,7 +16,7 @@ int[] tipo2 = {2, 2, 2, 2, 2, 2};
 int[] tipo3 = {2, 2, 2, 2, 3, 3};
 
 // 1 - pinta texto ; 0 - no pinta texto 
-int[] ordenTextos = {1, 1, 1, 1, 0, 0};
+int[] ordenTextos = {1, 1, 1, 0, 0, 0};
 int indexTextos = 0;
 
 PFont miFuenteBold, miFuenteRegular;
